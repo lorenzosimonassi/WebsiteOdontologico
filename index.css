@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Marcellus&family=Poppins&family=Six+Caps&display=swap');
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+@keyframes opacidade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 90px;
+    background-color: white;
+    justify-content: space-between;
+    position: fixed;
+    animation: opacidade 0.3s ease-in-out;
+}
+
+#opcoes{
+    text-align: end;
+    justify-content: end;
+    align-items: end;
+    margin-right: 13.5%;
+    animation: opacidade 1s ease-in-out;
+}
+
+
+#logo{
+    font-size: 24px;
+    color: rgb(83, 149, 236);
+    margin-left: 15%;
+    animation: opacidade 1s ease-in-out;
+}
+
+
+nav a{
+    color: rgb(83, 149, 236);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 22px;
+
+}
+nav a:hover{
+    color: rgb(7, 82, 196);
+    font-size: 23px;
+    transition: 0.6s;
+}
+
+#principal{
+    display: flex;
+    height: 85vh;
+    background-image: url('luxa.org-opacity-changed-ash-edmonds-PfiCEBmKTqY-unsplash.jpg');
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    animation: opacidade 0.2s ease-in-out;
+}
+#dentista{
+    flex: 1;
+    text-align: start;
+    margin-top: 10%;
+    margin-left: 15%;  
+    animation: opacidade 1s ease-in-out;  
+}
+#dentista h1{
+    font-size: 45px;
+    width: 104%;
+    color: rgb(27, 33, 54);
+}
+#dentista span{
+    color: rgb(83, 149, 236);
+}
+#dentista h2{
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+}
+#dentista button{
+    margin-top: 5%;
+    height: 60px;
+    width: 250px;
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-image: linear-gradient(to right, rgb(83, 149, 236), rgb(7, 82, 196));
+    margin-left: 30%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+#dentista button a{
+    color: white;
+}
+#dentista button:hover{
+    padding: 7px;
+    font-size: 19px;
+    transition: 0.5s;
+    padding-bottom: 3px;
+}
+#dentista button i{
+    color: white;
+    font-size: 20px;
+}
+#redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 7%;
+}
+#dentista h3 i{
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    border: 2px solid transparent;
+    background-color: rgb(83, 149, 236);
+    border-radius: 25px;
+    text-align: center;
+    margin-right: 5px;
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+#dentista h3 i:hover{
+    padding: 3.5px;
+    background-color: rgb(7, 82, 196);
+    transition: 0.5s;
+}
+#dentista h3 a{
+    color: rgb(27, 33, 54);
+    font-size: 24px;
+    text-align: center;
+    justify-content: space-between;
+}
+#dentista h3{
+    font-size: 22px;
+}
+
+#doutor{
+    flex: 1;
+    margin-top: 7%;
+    margin-left: 8%;
+    animation: opacidade 1s ease-in-out;
+}
+#doutor img{
+    border:1px solid rgb(83, 149, 236);
+    border-radius: 15px;
+    height: 60vh;
+}
+
+#sobre{
+    display: flex;
+    height: 85vh;
+    width: 100%;
+    background-color: white;
+}
+
+
+#drfoto{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+#drfoto img{
+    height: 60vh;
+    margin-top: 13%;
+    border: 1px solid rgb(83, 149, 236);
+    border-radius: 5px;
+}
+
+#historia{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+#historia h3{
+    margin-right: 20%;
+    color: grey;
+}
+#historia span{
+    color:  rgb(68, 68, 68);
+}
+#historia h1{
+    margin-right: 51.3%;
+    font-size: 55px;
+    margin-bottom: 6%;
+    color: rgb(68, 68, 68);
+}
+
+#serviços{
+    display: flex;
+    height: 85vh;
+    background-color: rgb(249, 248, 255);
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.caixas-superiores, .caixas-inferiores {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.caixa, .caixa2{
+    height: 280px;
+    width: 350px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 90px;
+    border: 1px solid rgb(83, 149, 236) ;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.caixa h3, .caixa2 h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 5px;
+    color: rgb(83, 149, 236);
+    align-items: center;
+}
+.caixa p, .caixa2 p{
+    font-size: 20px;
+    text-align: start;
+    margin: 10px;
+    color: grey;
+}
+.caixa2 button{
+    margin-top: 2%;
+    height: 50px;
+    width: 210px;
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-image: linear-gradient(to right, rgb(83, 149, 236), rgb(7, 82, 196));
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.caixa2 a{
+    color: white;
+}
+.caixa2 button:hover{
+    padding: 7px;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+}
+.pequeno p{
+    font-size: 15px;
+}
+
+#contato{
+        display: flex;
+        height: 130vh;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        justify-content: center;
+}
+
+.infos{
+    text-align: center;
+}
+.infos h1{
+    margin-top: 8%;
+    font-size: 32px;
+    color: rgb(27, 33, 54);
+}
+.infos p{
+    color: black;
+    margin-top: 2%;
+}
+.infos span{
+    color: rgb(83, 149, 236);
+}
+.infos i{
+    color: rgb(27, 33, 54);
+    font-size: 20px;
+}
+.infos h3{
+    font-size: 18px;
+    color: rgb(27, 33, 54);
+}
+
+.box1{
+    height: 190px;
+    width: 250px;
+    margin-top: 7%;
+    margin-right: 5%;
+    
+
+}
+.box2{
+    height: 190px;
+    width: 250px;
+    margin-top: 7%;
+    margin-left: 5%;
+    
+
+}
+#contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#contents p{
+    font-size: 14px;
+}
+#contents button{
+    margin-top: 7%;
+    height: 50px;
+    width: 210px;
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-image: linear-gradient(to right, rgb(83, 149, 236), rgb(7, 82, 196));
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+#contents a{
+    color: white;
+}
+
+#contents button:hover{
+    padding: 7px;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+}
+#detalhe i{
+    color: white;
+}
+#line{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(83, 149, 236);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mapa{
+    position: relative;
+ 
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#detalhes2 h1{
+    margin-bottom: 3%;
+    font-size: 32px;
+    color: rgb(27, 33, 54);
+}
+#detalhes2 span{
+    color: rgb(83, 149, 236);
+}
+footer{
+    display: flex;
+    height: 10vh;
+    background-image: linear-gradient(to right, rgb(83, 149, 236), rgb(7, 82, 196));
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
